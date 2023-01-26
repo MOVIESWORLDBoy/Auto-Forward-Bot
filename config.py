@@ -11,6 +11,7 @@ class Config:
     API_HASH = os.environ.get("API_HASH", "88435449ad6d4438fa36ed156ff59b63")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5948630563:AAHPqTOZAcfhDuBiFMZPRYsvPAtVSle-bps") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
+    PORT = 8080
     CAPTION = os.environ.get("CAPTION", "")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "-1001252405271")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
