@@ -9,7 +9,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", 28901295))
     API_HASH = os.environ.get("API_HASH", "88435449ad6d4438fa36ed156ff59b63")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5948630563:AAHPqTOZAcfhDuBiFMZPRYsvPAtVSle-bps") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5729182401:AAF96cHFyRfRK--BznUeybplrV8OyZIxbXU") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "Join Channel - @MX_Networks")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "-1001252405271")
